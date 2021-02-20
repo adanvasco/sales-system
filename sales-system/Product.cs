@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
+// The product class is created with your objects
 namespace sales_system
 {
-    class Product
+    public class Product
     {
+        public string Code;
+        public string Name;
+        public int Price;
     }
 }
