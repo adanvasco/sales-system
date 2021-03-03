@@ -7,8 +7,10 @@ namespace sales_system
 {
     public class Sale
     {
-        public string Code_Product;
-        public string Name_Product;
+        //public string Code_Product;
+        public SalesMan SalesMan;
+        //public string Name_Product;
+        public Product Product; 
         public String Comments;
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 // The salesman class is created with your objects
 namespace sales_system
 {
-    class SalesMan
+    public class SalesMan
     {
         public string Identification;
         public string Name;
